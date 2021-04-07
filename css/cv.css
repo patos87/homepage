@@ -1,3 +1,57 @@
-p {
-  color: #892be2;
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.header {
+  color: #0a0000;
+  text-shadow: 1px 2px 5px #279659;
+  padding: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.body {
+  background-color: #f3fdfa;
+  font-family: "Poppins", sans-serif;
+}
+
+.article {
+  color: #044e32;
+}
+
+.section {
+  color: #750404;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #750404;
+  border-radius: 100px;
+  margin: 30px;
+  padding: 0px 20px;
+  box-shadow: 9px 12px 12px 4px #279659;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.photo {
+  border-radius: 50%;
 }
